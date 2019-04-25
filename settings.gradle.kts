@@ -21,7 +21,9 @@ pluginManagement {
     }
 }
 
-include("scripts", "connector", "configurationmanager", "docs", "services", "nlp")
+include("connector",
+    "scripts",
+    "configurationmanager", "docs", "services", "nlp")
 include("fusekiserver")
 include("gui", "webgui-kvision")
 
